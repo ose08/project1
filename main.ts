@@ -1,0 +1,13 @@
+basic.forever(function () {
+    led.plot(0, 0)
+    led.plot(1, 1)
+    led.plot(2, 2)
+    led.plot(3, 3)
+    led.plot(4, 4)
+    led.plot(4, 0)
+    led.plot(3, 1)
+    led.plot(1, 3)
+    led.plot(0, 4)
+    radio.setGroup(1)
+    music.playMelody("- E B E D C - C ", 225)
+})
